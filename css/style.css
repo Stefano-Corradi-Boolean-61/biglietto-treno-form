@@ -1,0 +1,56 @@
+body{
+  background-color: brown;
+  color: white;
+}
+
+h1, h2{
+  text-transform: uppercase;
+}
+
+td, th{
+  padding: 20px;
+  text-align: center;
+}
+
+.input-area{
+  padding: 30px;
+  background-color: white;
+  color: brown;
+  border-radius: 10px;
+  box-shadow: 0 0 10px black;
+}
+.container-input{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.input-area label{
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.input-area  input,
+.input-area select{
+  border-radius: 5px;
+  text-align: center;
+  border: 1px solid brown;
+  color: brown
+}
+
+.input-area  input:focus,
+.input-area select:focus{
+  background-color: brown;
+  color: white;
+}
+
+section{
+  background-color: white;
+  color: brown;
+  transition: 0.3s;
+  padding-bottom: 30px;
+  margin-bottom: 50px;
+}
+
+.sc-hide{
+  opacity: 0;
+}
